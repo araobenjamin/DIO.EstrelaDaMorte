@@ -11,8 +11,8 @@ Scripts de criação de BD no SQL Server
 - HistoricoViagens
 
 ### Relacionamentos
-- Pilotos-Planetas
-- PilotosNaves-Pilotos
-- PilotosNaves-Naves
-- HistoricoViagens-Pilotos
-- HistoricoViagens-Naves
+- Pilotos -> Planetas
+- PilotosNaves -> Pilotos
+- PilotosNaves -> Naves
+- HistoricoViagens -> Pilotos
+- HistoricoViagens -> Naves
